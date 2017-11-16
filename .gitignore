@@ -1,1 +1,6 @@
+#ignores each of these file types, so that they're not suggested for adding to staging or commiting
+
 *.working
+*.pdf
+*.png
+!figures/*  #excludes anything in figures folder from the above commands
